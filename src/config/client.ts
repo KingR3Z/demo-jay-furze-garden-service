@@ -79,13 +79,12 @@ export const client = {
 
   // Reviews — placeholder
   reviews: [
-    { name: "Graham Groom", rating: 5, text: "A week of hard graft replacing rotting sleepers (around 15 total), remaking flight of steps and laying new gravel. Guys were great, very responsive and good to work with. Really pleased with the result, built to last! Jay and his team are highly reco", date: "3 months ago" },
-    { name: "Sarah Moolla", rating: 5, text: "Was absolutely delighted with the work Jay and his team did – would have no problems recommending at all. ", date: "11 months ago" },
-    { name: "Divus Maximus", rating: 5, text: "We asked Jay and his team to demolish and remove a garage and garden rubbish, also to fence all around our garden, along with a few other smaller tasks. Jay and his team were very friendly, professional, down to earth guys who …  ", date: "6 years ago" },
-    { name: "lorraine wilson-brown", rating: 5, text: "Jay and his team built 2 block built raised beds which are rendered. Great piece of work and the team tided up afterwards. We're very happy and will use Jay again ", date: "7 years ago" },
-    { name: "Lynette Hardy", rating: 5, text: "Jay and his team did a great job on my garden and completely cleaned up afterwards, which in my experience is very rare.  He put up a new garden gate at the side of the house, painted my pergola, laid the lawn and painted the fence.........Would defi", date: "9 years ago" },
-    { name: "Holly Abbott", rating: 5, text: "Called up to make an enquiry - the man that answered was rude and abrupt. I ended the call as it was not a pleasant invitation and sounded like he had better things to do. I'd rather part my money with someone who wants the business. ", date: "10 years ago" },
-    { name: "gord", rating: 5, text: "Arranged for viewing for work to be done but Mr Furze failed to turn up. No explanation VERY RUDE ", date: "7 years ago" },
+    { name: "Graham Groom", rating: 5, text: "A week of hard graft replacing rotting sleepers (around 15 total), remaking flight of steps and laying new gravel. Guys were great, very responsive and good to work with. Really pleased with the result, built to last! Jay and his team are highly recommended by this happy customer.", date: "3 months ago" },
+    { name: "Sarah Moolla", rating: 5, text: "Was absolutely delighted with the work Jay and his team did – would have no problems recommending at all.", date: "11 months ago" },
+    { name: "Richard Lucas", rating: 5, text: "Jay and his men did a brilliant job sorting out our garden with a superb decking area, new fencing, pathway and steps with a beautifully levelled patio area. Please view the photographs to see the finished work. All completed at a very competitive price", date: "a year ago" },
+    { name: "Dominic DeCesare", rating: 5, text: "We hired Jay and his team to take out a hedge and put up a fence. They arrived on the day we arranged, completed the work one day faster than estimated. The fence is sturdy, level and straight. They cleaned up the site completely when they finished as well.  Absolutely excellent, a friendly team will definitely use again and recommend to others.", date: "a year ago" },
+    { name: "Cath Pope", rating: 5, text: "Fantastic job on cutting my hedge again. 3rd year I’ve used this company and plan to do so for many more. Huge thanks to the team", date: "a year ago" },
+    { name: "LOUISE RUSSELL", rating: 5, text: "Hard working team and easy to get along with.", date: "a year ago" },
   ] as { name: string; rating: number; text: string; date: string; badge?: string }[],
 
   // SEO
